@@ -7,8 +7,12 @@ $app = new \Slim\Slim();
 $app->config('debug', true);
 
 $app->get('/', function() {
+	
+	$sql = new rtidev\DB\Sql();
+
+	$results = $sql->select("select * from tb_users");
     
-	echo "OK";
+	echo json_encode($results);
 
 });
 

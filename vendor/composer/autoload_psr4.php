@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Rti\\' => array($vendorDir . '/Rti/php-classes/src'),
+    'rtidev\\' => array($vendorDir . '/rtidev/php-classes/src'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
 );

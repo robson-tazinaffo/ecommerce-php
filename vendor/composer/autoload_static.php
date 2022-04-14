@@ -7,9 +7,9 @@ namespace Composer\Autoload;
 class ComposerStaticInit0b968f58b727f4815ecdee809cf66ddd
 {
     public static $prefixLengthsPsr4 = array (
-        'R' => 
+        'r' => 
         array (
-            'Rti\\' => 4,
+            'rtidev\\' => 7,
         ),
         'P' => 
         array (
@@ -18,9 +18,9 @@ class ComposerStaticInit0b968f58b727f4815ecdee809cf66ddd
     );
 
     public static $prefixDirsPsr4 = array (
-        'Rti\\' => 
+        'rtidev\\' => 
         array (
-            0 => __DIR__ . '/..' . '/Rti/php-classes/src',
+            0 => __DIR__ . '/..' . '/rtidev/php-classes/src',
         ),
         'PHPMailer\\PHPMailer\\' => 
         array (

@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rti": "vendor\\rtidev\\php-classes\\src"
+            "rtidev\\": "vendor\\rtidev\\php-classes\\src"
         }
     }
 }
